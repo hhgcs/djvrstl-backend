@@ -10,7 +10,7 @@ flowchart TB
         A1[Admin Staff]
     end
 
-    subgraph Frontend[Frontend - React (Next.js/Vite)]
+    subgraph Frontend[Frontend - React]
         LP[Landing & Lead Gen]
         BEUI[Booking Engine UI]
         STO[Storefront UI]
