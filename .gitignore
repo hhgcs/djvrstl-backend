@@ -1,9 +1,32 @@
+# Build outputs
 bin/
 obj/
 /packages/
+
+# Test and coverage output
+TestResults/
+*.trx
+coverage/
+*.coverage
+*.coveragexml
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.idea/
+.vscode/
+.vs/
+*.sln.DotSettings.user
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 riderModule.iml
 /_ReSharper.Caches/
+
+# Uploaded product assets
 djvrstl-backend/wwwroot/uploads/products/*
 !djvrstl-backend/wwwroot/uploads/products/.gitkeep
-.env
-.env.local
