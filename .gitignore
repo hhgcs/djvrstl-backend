@@ -1,0 +1,9 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+djvrstl-backend/wwwroot/uploads/products/*
+!djvrstl-backend/wwwroot/uploads/products/.gitkeep
+.env
+.env.local

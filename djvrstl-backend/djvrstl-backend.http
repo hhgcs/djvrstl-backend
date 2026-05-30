@@ -1,0 +1,6 @@
+@djvrstl_backend_HostAddress = http://localhost:5193
+
+GET {{djvrstl_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
